@@ -1,0 +1,24 @@
+<div>
+    
+    <div class="news" *ngFor="let newsFeed of newsData">
+        
+        <div class="row">
+            <div class="col-md-3">
+                   <img [src]="newsFeed.urlToImage" class="img"  alt="" >
+            </div>
+        
+            <div class="col-md-9">
+            <p style="font-size: 100%">{{newsFeed.content}}</p>
+            <span><b>News by:</b> {{ newsFeed.author | titlecase}} </span>
+            <p> {{newsFeed.description}}</p>
+        
+            </div>
+        
+        </div>
+
+    </div>
+</div>
+    
+
+
+

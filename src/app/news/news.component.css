@@ -1,0 +1,22 @@
+.news{
+
+    background-color:lightgrey;
+    border-radius: 25px;
+    
+  }
+
+  .row{
+
+    margin-bottom: 3%;
+    
+  
+  }
+
+  .img{
+
+    height: 130px;
+    width: 200px;
+    margin-top: 5px;
+    margin-left: 25px;
+    margin-bottom: 2.5px;
+  }
